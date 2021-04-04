@@ -1,0 +1,30 @@
+.coin_container {
+  display: flex;
+  justify-content: center;
+}
+
+.coin_row {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  height: 80px;
+  border-bottom: 1px solid black;
+  width: 1000px;
+}
+
+.coin_row:hover {
+  background: grey;
+}
+
+.coin {
+  display: flex;
+  align-items: center;
+  padding-right: 24px;
+}
+
+.coinImg {
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
